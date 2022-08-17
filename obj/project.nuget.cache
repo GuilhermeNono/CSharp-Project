@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fknp6KvbeMgv8i8ZBbDCW/4lJuD9OwCN+nL9eIGUCrgyDKMkzYSH4+Bi9VCYDuHRxqpj4Zk/j711wfLCijJgfg==",
+  "dgSpecHash": "F9kRNVOgN78w2Ltb4WEzwfvpo+fGAsRDWsh3hiKSta2gQMKmGDq2N1nM/NfRa/HHhyV7yMqOI5ygLSm8+E1eQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etec\\Desktop\\CSharp-Project\\Exercicios.csproj",
+  "projectFilePath": "C:\\Users\\etec\\desktop\\CSharp-Project\\Exercicios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

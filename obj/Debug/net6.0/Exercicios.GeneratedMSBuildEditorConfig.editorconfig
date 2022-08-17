@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exercicios
 build_property.RootNamespace = Exercicios
-build_property.ProjectDir = C:\Users\etec\Desktop\CSharp-Project\
+build_property.ProjectDir = C:\Users\etec\desktop\CSharp-Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\etec\Desktop\CSharp-Project
+build_property.MSBuildProjectDirectory = C:\Users\etec\desktop\CSharp-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Condicionais/CondicionalIf.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Condicionais/CondicionalIf.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZGljaW9uYWlzXENvbmRpY2lvbmFsSWYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Condicionais/CondicionalSwitch.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Condicionais/CondicionalSwitch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZGljaW9uYWlzXENvbmRpY2lvbmFsU3dpdGNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Condicionais/Index.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Condicionais/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZGljaW9uYWlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Home/Index.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Home/Privacy.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Home/SobreMim.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Home/SobreMim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU1pbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Matematicos/Exercicio1.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Matematicos/Exercicio1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljb3NcRXhlcmNpY2lvMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Matematicos/Exercicio2.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Matematicos/Exercicio2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljb3NcRXhlcmNpY2lvMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Matematicos/Exercicio3.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Matematicos/Exercicio3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljb3NcRXhlcmNpY2lvMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Matematicos/Index.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Matematicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Shared/Error.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/_ViewImports.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/_ViewStart.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/etec/Desktop/CSharp-Project/Views/Shared/_Layout.cshtml]
+[C:/Users/etec/desktop/CSharp-Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-367y37a4xw

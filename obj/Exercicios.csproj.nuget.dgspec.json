@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\CSharp-Project\\Exercicios.csproj": {}
+    "C:\\Users\\etec\\desktop\\CSharp-Project\\Exercicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\CSharp-Project\\Exercicios.csproj": {
+    "C:\\Users\\etec\\desktop\\CSharp-Project\\Exercicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\CSharp-Project\\Exercicios.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\desktop\\CSharp-Project\\Exercicios.csproj",
         "projectName": "Exercicios",
-        "projectPath": "C:\\Users\\etec\\Desktop\\CSharp-Project\\Exercicios.csproj",
+        "projectPath": "C:\\Users\\etec\\desktop\\CSharp-Project\\Exercicios.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\CSharp-Project\\obj\\",
+        "outputPath": "C:\\Users\\etec\\desktop\\CSharp-Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",

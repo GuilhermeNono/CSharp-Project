@@ -32,9 +32,16 @@ public class Partida
     {
         get
         {
-            return GolsTime1 > GolsTime2 ? $"Vitória do {Time1}" :
-                   GolsTime2 > GolsTime1 ? $"Vitória do {Time2}" :
-                                           $"Empate entre {Time1} e {Time2}";
+            if (GolsTime1 > GolsTime2)
+                return $"Vitoria do: {Time1}";
+            else 
+                if (GolsTime2 > GolsTime1)
+                return $"Vitoria do: {Time2}";
+            else
+                return $"Empate entre {Time1} e {Time2}";
+                
+
+                  
         }
     }
 }

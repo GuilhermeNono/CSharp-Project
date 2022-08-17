@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Exercicios.Models;
 
 namespace Exercicios.Controllers
 {
@@ -18,5 +19,11 @@ namespace Exercicios.Controllers
         public IActionResult CondicionalIf(){
             return View();
         }
+
+        [HttpPost]
+        public IActionResult CondicionalIf(Partida partida){
+            return View(partida);
+        }
+        
     }
 }
