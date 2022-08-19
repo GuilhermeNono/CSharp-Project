@@ -1,7 +1,55 @@
-
+@model Pedido
 @{
-    ViewData["Title"] = "CondicionalSwitch";
+    ViewData["Title"] = "Condicional - Switch";
 }
 
-<h1>CondicionalSwitch</h1>
+<section class="bg-dark text-white text-center py-3">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-uppercase mb-3">Condicional Switch</h1>
+        <p class="font-weight-light fs-2">Pedido</p>
+    </div>
+</section>
 
+<div class="container mt-4">
+    <div class="row justify-content-md-center">
+        <form method="post" class="col-lg-8 col-md-12">
+            <p class="mb-4">
+                Elabora uma página que permita ao usuário informar o código do item pedido e a quantidade 
+                comprada, após a leitura calcule o valor a ser pago por aquele lanche.
+            </p>
+            <div class="col-12 py-3">
+                <p class="fs-1 text-center bg-dark text-white">
+                    @{
+                        if (Model != null)
+                        {
+                            if (Model.ValorTotal == 0){
+                                @:<span class="text-danger">Código Inválido</span>
+                            }
+                            else{
+                                @:Valor Total R$ @Model.ValorTotal.ToString("N2")
+                            }
+                        }
+                    }
+                </p>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label asp-for="Codigo" class="form-label"></label>
+                    <input asp-for="Codigo" class="form-control">
+                    <span asp-validation-for="Codigo" class="text-danger"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="Qtde" class="form-label"></label>
+                    <input asp-for="Qtde" class="form-control">
+                    <span asp-validation-for="Qtde" class="text-danger"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1ugSHDVwUd7C/M/vRYDTu6x7fSREZOz6IGp2VlV2LvE=",
+  "Hash": "4M/VaWL5Mx7nCpe/pBfPOHR1FmBDLh6M5puWSaKJRA4=",
   "Source": "Exercicios",
   "BasePath": "_content/Exercicios",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\partida.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\etec\\desktop\\CSharp-Project\\wwwroot\\img\\pedido.jpg",
+      "SourceId": "Exercicios",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\etec\\desktop\\CSharp-Project\\wwwroot\\",
+      "BasePath": "_content/Exercicios",
+      "RelativePath": "img/pedido.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pedido.jpg"
     },
     {
       "Identity": "C:\\Users\\etec\\desktop\\CSharp-Project\\wwwroot\\img\\sem-foto.png",

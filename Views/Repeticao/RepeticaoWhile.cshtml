@@ -1,0 +1,43 @@
+@model Tabuada
+@{
+    ViewData["Title"] = "Repetição - While";
+}
+
+<section class="bg-dark text-white text-center py-3">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-uppercase mb-3">Estruturas de Repetição</h1>
+        <p class="font-weight-light fs-2">Tabuada com While</p>
+    </div>
+</section>
+
+<div class="container mt-4">
+    <div class="row justify-content-md-center">
+        <form method="post" class="col-md-4 col-sm-12">
+            <p class="mb-4">
+                Elabora uma página que permita ao usuário informar um número de 0 a 10 e exiba a tabuada desse número.
+            </p>
+            <div class="form-group">
+                <label asp-for="Numero" class="form-label"></label>
+                <input asp-for="Numero" class="form-control">
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Calcular</button>
+            
+            @if (Model != null)
+            {
+                if (Model.Resultado.Count > 0)
+                {
+                    <p class="fs-3 my-3">Tabuada do @Model.Numero</p>
+                    @foreach (var linha in Model.Resultado)
+                    {
+                        <p class="fs-5 mb-0" >@linha</p>
+                    }
+                }
+            }
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -55,6 +55,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGljb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/etec/desktop/CSharp-Project/Views/Repeticao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwZXRpY2FvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/etec/desktop/CSharp-Project/Views/Repeticao/RepeticaoDo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwZXRpY2FvXFJlcGV0aWNhb0RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/etec/desktop/CSharp-Project/Views/Repeticao/RepeticaoFor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwZXRpY2FvXFJlcGV0aWNhb0Zvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/etec/desktop/CSharp-Project/Views/Repeticao/RepeticaoWhile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwZXRpY2FvXFJlcGV0aWNhb1doaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/etec/desktop/CSharp-Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

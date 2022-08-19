@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Estruturas de Repetição";
+}
+
+<section class="bg-dark text-white text-center py-3">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-uppercase mb-3">Estruturas de Repetição</h1>
+        <p class="font-weight-light fs-2">Enquanto, Para e Repita</p>
+    </div>
+</section>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="padding:0;">
+                <img src="@Url.Content("~/img/tabuada.jpg")" class="card-img-top" alt="Repetição - Enquanto">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Tabuada com Enquanto</h5>
+                    <p class="card-text">Dado um número pelo usuário, informar a tabuada correspondente.
+                    </p>
+                    <a asp-action="RepeticaoWhile" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="padding:0">
+                <img src="@Url.Content("~/img/tabuada.jpg")" class="card-img-top" alt="Repetição - Para">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Tabuada com Para</h5>
+                    <p class="card-text">Dado um número pelo usuário, informar a tabuada correspondente.
+                    </p>
+                    <a asp-action="RepeticaoFor" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="padding:0">
+                <img src="@Url.Content("~/img/tabuada.jpg")" class="card-img-top" alt="Repetição - Repita">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Tabuada com Repita</h5>
+                    <p class="card-text">Dado um número pelo usuário, informar a tabuada correspondente.
+                    </p>
+                    <a asp-action="RepeticaoDo" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -7,36 +7,35 @@ using Exercicios.Models;
 
 namespace Exercicios.Controllers
 {
-    public class CondicionaisController : Controller
+    public class RepeticaoController : Controller
     {
-        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-
         [HttpGet]
-        public IActionResult CondicionalIf()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult CondicionalIf(Partida partida)
-        {
-            return View(partida);
-        }
-
-        [HttpGet]
-        public IActionResult CondicionalSwitch()
+        public IActionResult RepeticaoWhile()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult CondicionalSwitch(Pedido pedido)
+        public IActionResult RepeticaoWhile(Tabuada tabuada)
         {
-            return View(pedido);
+            tabuada.Tipo = TipoOperador.While;
+            tabuada.Calcular();
+            return View(tabuada);
         }
 
+        [HttpGet]
+        public IActionResult RepeticaoFor()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult RepeticaoDo()
+        {
+            return View();
+        }
     }
 }
