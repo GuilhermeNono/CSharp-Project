@@ -32,10 +32,26 @@ namespace Exercicios.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult RepeticaoFor(Tabuada tabuada)
+        {
+            tabuada.Tipo = TipoOperador.For;
+            tabuada.Calcular();
+            return View(tabuada);
+        }
+
         [HttpGet]
         public IActionResult RepeticaoDo()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult RepeticaoDo(Tabuada tabuada)
+        {
+            tabuada.Tipo = TipoOperador.Repeat;
+            tabuada.Calcular();
+            return View(tabuada);
         }
     }
 }
